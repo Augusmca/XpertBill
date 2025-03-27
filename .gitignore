@@ -287,6 +287,9 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
+# Miscellaneous cache
+/.angular/cache 
+
 # Visual Studio 6 build log
 *.plg
 
