@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/xpertbill/',
+  baseHref: 'https://augusmca.github.io/XpertBill/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/xpertbill"
+    "route": "/XpertBill"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 523, hash: 'cf0cb8882211305ff1c9e4e49a6d0f433222a42c9c0030afa35fb1b556601a34', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1036, hash: '83b23d265ecbfebb69171f434d4475a9cdf4ce65197df86dfcc9fd6f3d37d69d', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 20864, hash: '2b84a142e4fd8c572cc7031142b65db44b5a65d465875be525892bfd279bb489', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 549, hash: '88b9f1fbc25a35c4e7bbfabf43822c5cb096118c86ffe73b1ca324967cef5d80', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1062, hash: '81a8e0e2385dd6994615b601c2aec4ed1be3c616bd4c3d407875b81f8a6af009', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 20890, hash: '366da08a4d065158d8b786871da3e4a3304d10b5dca0d12bd4a2f221063897df', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

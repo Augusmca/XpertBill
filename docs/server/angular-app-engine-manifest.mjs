@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/xpertbill',
+  basePath: 'https://augusmca.github.io/XpertBill',
   supportedLocales: {
   "en-US": ""
 },
