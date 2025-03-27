@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "XpertInvoice": {
+    "XpertBill": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "XpertInvoice:build:production"
+              "buildTarget": "XpertBill:build:production"
             },
             "development": {
-              "buildTarget": "XpertInvoice:build:development"
+              "buildTarget": "XpertBill:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:XpertInvoice": "node dist/xpert-invoice/server/server.mjs"
+    "serve:ssr:XpertBill": "node dist/xpert-invoice/server/server.mjs"
   },
   "private": true,
   "dependencies": {
